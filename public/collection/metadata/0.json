@@ -1,4 +1,5 @@
 {
-  "name": "Test NFT Igaponov #0",
+  "name": "Test NFT Igaponov",
+  "description": "This demo NFT will be used for the whole smartcontract. Read [how to create NFT](https://medium.com/@igaponov/create-deploy-and-mint-smart-contract-erc-721-with-nodejs-hardhat-walletconnect-web3modal-57e21b2d2abc)",
   "image": "https://gapon2401.github.io/erc721-mint/collection/assets/0.png"
 }
