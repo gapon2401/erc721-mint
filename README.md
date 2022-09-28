@@ -2,7 +2,7 @@
 
 This demo package shows, how to embed a button on your website that can mint a token (ERC-721) in Ethereum blockchain.
 
-Before you start, make sure to deploy a smartcontract. Use [instruction](https://medium.com/@igaponov/create-deploy-and-mint-smart-contract-erc-721-with-nodejs-hardhat-walletconnect-web3modal-57e21b2d2abc), if you have problems with that.
+Before you start, make sure to deploy a smartcontract.
 
 We will use [ethers](https://www.npmjs.com/package/ethers), 
 [walletconnect](https://www.npmjs.com/package/@walletconnect/web3-provider), 
@@ -22,5 +22,3 @@ We need this to switch the network.
 4. Replace `abi` in file `src/components/smartcontract.ts`
 5. Make changes, if you need in `mint` function inside file `src/components/MintForm.tsx`
 6. Run `yarn dev` to start the development server on [http://localhost:3000](http://localhost:3000)
-
-If you feel, that some steps are not clear for you, follow the [instruction](https://medium.com/@igaponov/create-deploy-and-mint-smart-contract-erc-721-with-nodejs-hardhat-walletconnect-web3modal-57e21b2d2abc), it may help.
